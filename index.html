@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story about Reggae music</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <audio id="reggae-audio" preload="auto">
+        <source src="assets/audio/reggae-guitar.mp3" type="audio/mpeg">
+    </audio>
+
+    <main class="narrative-container">
+        <section id="scene-1" class="scene active">
+            <div class="scene-content fade-in">
+                <span class="era">1960s // Kingston</span>
+                <h1>The music and beat of Reggae music</h1>
+                <p>The vibes of Kingston town in Jamaica are amazing, with the unique beat of the drums and people are enjoying some reggae music.</p>
+
+                <div class="image-wrapper">
+                    <img src="assets/images/kingston.png" alt="The people of Kingston having a good time">
+                </div>
+
+                <p>You realize that reggae music is all about feeling the music or rhythm and coming together with the community.</p>
+
+                <div class="choices">
+                    <button class="choice-btn" data-next="scene-2a">Listen to the beat</button>
+                    <button class="choice-btn" data-next="scene-2b">Join the Reggae community</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="scene-2a" class="scene">
+            <div class="scene-content fade-in">
+                <span class="era">True meaning of Reggae music</span>
+                <h2>Music with meaning</h2>
+                <p>You start paying attention to the lyrics, and notice that Reggae has a message of cultural and spiritual meaning.</p>
+
+                <div class="image-wrapper">
+                    <img src="assets/images/studio.png" alt="A recording studio recording reggae music">
+                </div>
+
+                <p>The message of Reggae music now starts to spread worldwide, so people all over the world can listen to the message behind the music.</p>
+
+                <div class="choices">
+                    <button class="choice-btn" data-next="scene-1"> Return to the beginning</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="scene-2b" class="scene">
+            <div class="scene-content fade-in">
+                <span class="era">The powerful sound of Reggae</span>
+                <h2>The stage and Reggae</h2>
+                <p>Reggae is now being heard around the world, and every place that Reggae music visits seems to have a lot of people at the concerts.</p>
+
+                <div class="image-wrapper">
+                    <img src="assets/images/stage.png" alt="Crowd full of people getting to see Bob Marley and the Wailers live">
+                </div> 
+                
+                <p>The vibes are loud, spiritual, and full of energy.</p>
+
+                <div class="choices">
+                    <button class="choice-btn" data-next="scene-1">Return to the beginning</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
